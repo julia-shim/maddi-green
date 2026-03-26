@@ -1,3 +1,6 @@
+import maddi from '../assets/MADDI.jpg';
+
+const MADDI = {maddi}; 
 export default function About() {
   return (
     <div className="max-w-7xl mx-auto px-8 md:px-16 py-12 md:py-20">
@@ -8,17 +11,14 @@ export default function About() {
       <div className="flex flex-col md:flex-row gap-12 md:gap-24 items-start">
         <div className="w-full md:w-1/2 order-2 md:order-1">
           <div className="prose prose-lg text-brown/90">
-            <p className="text-2xl leading-relaxed mb-8 font-serif italic text-brown border-l-8 border-gold pl-6 py-4 bg-khaki/30 shadow-sm">
-              Capturing the warmth, the light, and the fleeting moments.
+            {/* <p className="text-2xl leading-relaxed mb-8 font-serif italic text-brown border-l-8 border-gold pl-6 py-4 bg-khaki/30 shadow-sm">
+            Patience is at the core of my photography. I take time to observe my surroundings, study the light, and remain present until a moment naturally reveals itself. This slow, thoughtful approach allows my images to feel authentic rather than forced.
+            </p> */}
+            <p className="leading-relaxed mb-6">
+            Patience is at the core of my photography. I take time to observe my surroundings, study the light, and remain present until a moment naturally reveals itself. This slow, thoughtful approach allows my images to feel authentic rather than forced.
             </p>
             <p className="leading-relaxed mb-6">
-              Hi, I'm Maddi. I'm a photographer based in [Location], specializing in senior portraits, weddings, and editorial coursework. My style is heavily influenced by the "golden hour glow"—that perfect, warm light that makes everything look a little more magical.
-            </p>
-            <p className="leading-relaxed mb-6 bg-peach/20 p-6 rounded-sm border border-rust/10">
-              I believe that photography is about more than just taking a picture; it's about telling a story and capturing the genuine emotion of a moment. Whether we're shooting in a sun-drenched field or a dimly lit venue, my goal is to make you feel comfortable and beautiful.
-            </p>
-            <p className="leading-relaxed p-6 bg-lightsage/60 rounded-sm border-l-4 border-sage">
-              When I'm not behind the camera, you can find me exploring new coffee shops, chasing the sunset, or planning my next creative project. I can't wait to work with you and bring your vision to life.
+            I carry this same patience into my work with clients, creating space for them to be seen and understood. Whether discovering their aesthetic before a shoot or guiding them through poses during a session, I focus on what makes each person feel most like themselves. By honoring their preferences and comfort, I create photographs that are not only visually strong, but deeply personal images meant to be felt as much as they are seen.
             </p>
           </div>
         </div>
@@ -30,7 +30,7 @@ export default function About() {
             <div className="absolute -bottom-8 -left-8 w-3/4 h-3/4 bg-gold rounded-sm -z-20"></div>
             <div className="absolute -top-4 -left-4 w-1/2 h-1/2 bg-peach rounded-sm -z-30"></div>
             <img 
-              src="https://picsum.photos/seed/maddigreen/800/1000" 
+              src={MADDI.maddi}
               alt="Maddi Green" 
               className="w-full h-full object-cover rounded-sm shadow-xl border-8 border-cream"
               referrerPolicy="no-referrer"

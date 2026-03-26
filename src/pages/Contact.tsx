@@ -17,8 +17,8 @@ export default function Contact() {
             <Mail size={28} />
           </div>
           <h3 className="text-sm uppercase tracking-widest font-bold text-sage">Email</h3>
-          <a href="mailto:hello@maddigreen.com" className="text-lg font-serif text-brown hover:text-rust transition-colors break-all">
-            hello@maddigreen.com
+          <a href="mailto:madisonrenegreen@gmail.com" className="text-lg font-serif text-brown hover:text-rust transition-colors break-all">
+            madisonrenegreen@gmail.com
           </a>
         </div>
         
@@ -27,8 +27,8 @@ export default function Contact() {
             <Phone size={28} />
           </div>
           <h3 className="text-sm uppercase tracking-widest font-bold text-sage">Phone</h3>
-          <a href="tel:+1234567890" className="text-lg font-serif text-brown hover:text-rust transition-colors">
-            (123) 456-7890
+          <a href="tel:+12067710451" className="text-lg font-serif text-brown hover:text-rust transition-colors">
+            (206) 771-0451
           </a>
         </div>
         
@@ -38,7 +38,7 @@ export default function Contact() {
           </div>
           <h3 className="text-sm uppercase tracking-widest font-bold text-sage">Socials</h3>
           <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-lg font-serif text-brown hover:text-rust transition-colors">
-            @maddigreenphoto
+            @maddigreenphotos
           </a>
         </div>
       </div>

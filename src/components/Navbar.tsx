@@ -18,12 +18,12 @@ export default function Navbar() {
 
       {/* Desktop Nav */}
       <div className="hidden lg:flex items-center space-x-8">
-        <Link to="/senior-portraits" className={linkClass('/senior-portraits')}>Senior Portraits</Link>
-        <Link to="/weddings" className={linkClass('/weddings')}>Weddings</Link>
+        <Link to="/portraits" className={linkClass('/portraits')}>Portraits</Link>
+        <Link to="/shows" className={linkClass('/shows')}>Shows</Link>
         <Link to="/coursework" className={linkClass('/coursework')}>Coursework</Link>
         <Link to="/about" className={linkClass('/about')}>About Me</Link>
         <Link to="/contact" className={linkClass('/contact')}>Contact</Link>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-cream bg-sage p-2 rounded-full hover:bg-rust transition-colors ml-4 shadow-sm">
+        <a href="https://www.instagram.com/maddigreenphotos/" target="_blank" rel="noopener noreferrer" className="text-cream bg-sage p-2 rounded-full hover:bg-rust transition-colors ml-4 shadow-sm">
           <Instagram size={18} />
         </a>
       </div>
@@ -36,12 +36,12 @@ export default function Navbar() {
       {/* Mobile Nav Menu */}
       {isOpen && (
         <div className="absolute top-full left-0 w-full bg-peach border-b-8 border-rust shadow-xl flex flex-col items-center py-10 space-y-8 lg:hidden">
-          <Link to="/senior-portraits" onClick={() => setIsOpen(false)} className={mobileLinkClass('/senior-portraits')}>Senior Portraits</Link>
-          <Link to="/weddings" onClick={() => setIsOpen(false)} className={mobileLinkClass('/weddings')}>Weddings</Link>
+          <Link to="/portraits" onClick={() => setIsOpen(false)} className={mobileLinkClass('/portraits')}>Portraits</Link>
+          <Link to="/shows" onClick={() => setIsOpen(false)} className={mobileLinkClass('/shows')}>Shows</Link>
           <Link to="/coursework" onClick={() => setIsOpen(false)} className={mobileLinkClass('/coursework')}>Coursework</Link>
           <Link to="/about" onClick={() => setIsOpen(false)} className={mobileLinkClass('/about')}>About Me</Link>
           <Link to="/contact" onClick={() => setIsOpen(false)} className={mobileLinkClass('/contact')}>Contact</Link>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-cream bg-rust p-4 rounded-full hover:bg-gold transition-colors mt-4 shadow-md">
+          <a href="https://www.instagram.com/maddigreenphotos/" target="_blank" rel="noopener noreferrer" className="text-cream bg-rust p-4 rounded-full hover:bg-gold transition-colors mt-4 shadow-md">
             <Instagram size={28} />
           </a>
         </div>

@@ -16,9 +16,9 @@ export default function App() {
         <Navbar />
         <main className="flex-grow">
           <Routes>
-            <Route path="/" element={<Navigate to="/senior-portraits" replace />} />
-            <Route path="/senior-portraits" element={<Gallery category="senior" />} />
-            <Route path="/weddings" element={<Gallery category="wedding" />} />
+            <Route path="/" element={<Navigate to="/portraits" replace />} />
+            <Route path="/portraits" element={<Gallery category="portraits" />} />
+            <Route path="/shows" element={<Gallery category="shows" />} />
             <Route path="/coursework" element={<Gallery category="coursework" />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
