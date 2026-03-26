@@ -4,9 +4,9 @@ import path from 'path';
 import {defineConfig, loadEnv} from 'vite';
 
 export default defineConfig({
-  base: "/maddi-green/",
+  plugins: [react()],
+  base: "/maddi-green/"
 })
-
 // export default defineConfig(({mode}) => {
 //   const env = loadEnv(mode, '.', '');
 //   return {
